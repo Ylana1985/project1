@@ -1,0 +1,404 @@
+@media (min-width: 320px) {
+  body {
+    font-family: "TTLakes" "Arial", sans-serif;
+    height: 597px;
+    background: #f8f8f8;
+    padding: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /*меню с гамбургером и иконками  */
+
+  .header__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+
+    height: 88px;
+    background: #ffffff;
+  }
+
+  .header__logo_burger {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header__logo_grup {
+    width: 96.55px;
+    height: 50.81px;
+  }
+  .header__logo_icon,
+  .header__logo_call,
+  .header__logo_profile {
+    opacity: 0;
+  }
+
+  .header__logo_repair {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header__logo_checkstatus {
+    width: 40px;
+    height: 40px;
+  }
+
+  /*заголовок*/
+  .info__title {
+    width: 304px;
+    height: 40px;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+  }
+
+  /*текст+ читать далее+картинка*/
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 509px;
+  }
+
+  .text {
+    height: 90px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #1b1c21;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .excert {
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  }
+
+  .excert__specc {
+    height: 24px;
+  }
+
+  .excert__link {
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #1b1c21;
+  }
+
+  .image__logo {
+    height: 230.8px;
+  }
+
+  /*menu*/
+  .nav-scroller {
+    overflow-y: hidden;
+    background-color: #fff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+
+  .nav-scroller__items {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  a {
+    display: flex;
+    flex-basis: content;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #7e7e82;
+  }
+}
+
+@media (min-width: 760px) {
+  body {
+    height: 416px;
+    font-family: "TTLakes" "Arial", sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+
+  .header__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+
+    height: 88px;
+    background-color: #ffffff;
+  }
+  .header__logo_burger {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header__logo_grup {
+    width: 96.55px;
+    height: 50.81px;
+  }
+  .header__logo_repair:before {
+    content:  url('/img/icon.svg');
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .header__logo_repair {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header__logo_checkstatus {
+    width: 40px;
+    height: 40px;
+  }
+
+  .info__title {
+    width: 257px;
+    height: 40px;
+  }
+  .nav-scroller {
+    height: 40px;
+  }
+
+  .nav-scroller__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #7e7e82;
+    border-radius: 6px;
+    gap: 10px;
+  }
+
+  a {
+    display: flex;
+    flex-basis: content;
+    text-decoration: none;
+    align-items: center;
+    padding: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #7e7e82;
+  }
+
+  .text {
+    height: 160px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #1b1c21;
+    overflow: hidden;
+  }
+
+  .excert {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 24px;
+  }
+
+  .excert__specc {
+    width: 24px;
+    height: 24px;
+  }
+
+  .excert__link {
+    height: 24px;
+
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #1b1c21;
+  }
+
+  .image {
+    height: 259.66px;
+
+    float: right;
+  }
+
+  .image__logo {
+    float: left;
+
+    height: 208px;
+  }
+
+  .cotainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    height: 208px;
+  }
+  .container__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1120px) {
+  body {
+    height: 535px;
+    font-family: "TTLakes" "Arial", sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+
+  .header {
+    height: 130px;
+    margin: 20px;
+  }
+
+  .header-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hoome {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .header__logo {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+  }
+
+  .header__logo_burger {
+    opacity: 0;
+  }
+
+  .header__logo_grup {
+    opacity: 0;
+  }
+
+  .header__logo_repair::before {
+    content: "Оставить заявку";
+    display: inline;
+    width: 257px;
+    height: 40px;
+  }
+
+  .header__logo_checkstatus::before {
+    content: "Статус ремонта";
+    width: 119px;
+    height: 24px;
+  }
+
+  .nav__info_title {
+    height: 40px;
+
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+  }
+
+  .nav-scroller {
+    height: 82px;
+  }
+
+  .nav-scroller__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  a {
+    display: flex;
+    flex-basis: content;
+    text-decoration: none;
+    align-items: center;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #7e7e82;
+  }
+
+  .cotainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+
+  .container__text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    height: 160px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #1b1c21;
+  }
+
+  .text-content::after {
+    content: "что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.";
+  }
+
+  .excert {
+    height: 24px;
+  }
+
+  .excert__specc {
+    width: 24px;
+    height: 24px;
+  }
+
+  .excert__link {
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #1b1c21;
+  }
+
+  .image {
+    width: 531.35px;
+    height: 383.24px;
+  }
+
+  .image__logo {
+    float: left;
+    width: 531.35px;
+    height: 307px;
+  }
+}
